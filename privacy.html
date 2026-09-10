@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — SUB NET</title>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="prose">
+<main>
+  <h1>Privacy policy</h1>
+  <p class="upd">Ultimo aggiornamento: settembre 2025 — si applica all'applicazione desktop "SUB NET".</p>
+
+  <h2>1. In sintesi</h2>
+  <p>L'app non ha server propri, non raccoglie dati analytics, non mostra pubblicità
+  e non condivide nulla con terze parti. L'unico servizio esterno utilizzato è
+  Google Drive, e solo per salvare un file di preferenze nell'area privata del
+  Drive dell'utente.</p>
+
+  <h2>2. Accesso a Google Drive</h2>
+  <p>Con il consenso esplicito dell'utente, l'app richiede l'accesso ai seguenti
+  scope OAuth di Google:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/drive.appdata</code> — accesso alla sola
+    cartella dati privata dell'applicazione (<code>appDataFolder</code>) nel Drive
+    dell'utente, invisibile nella normale interfaccia di Google Drive e accessibile
+    esclusivamente da questa app;</li>
+    <li><code>openid</code>, <code>email</code>, <code>profile</code> — utilizzati
+    unicamente per mostrare l'indirizzo email dell'account connesso nell'interfaccia.</li>
+  </ul>
+
+  <h2>3. Dati trattati</h2>
+  <p>Il file salvato (<code>watchstate.json</code>) contiene: preferenze e
+  impostazioni dell'applicazione, elementi salvati dall'utente e relativo stato
+  di riproduzione. Questi dati:</p>
+  <ul>
+    <li>risiedono sul dispositivo dell'utente e, se la sincronizzazione è attiva,
+    nella cartella privata <code>appDataFolder</code> del Drive dell'utente;</li>
+    <li>non vengono mai inviati a server gestiti dallo sviluppatore;</li>
+    <li>non vengono utilizzati per profilazione, pubblicità o addestramento di modelli.</li>
+  </ul>
+
+  <h2>4. Credenziali OAuth</h2>
+  <p>I token di accesso e refresh OAuth sono memorizzati localmente sul dispositivo
+  (cartella dati dell'applicazione) e trasmessi esclusivamente ai server OAuth di
+  Google (<code>accounts.google.com</code>, <code>oauth2.googleapis.com</code>) per
+  mantenere la sessione attiva. Effettuando il logout dall'app, il token viene revocato
+  e i dati locali eliminati.</p>
+
+  <h2>5. Cancellazione dei dati</h2>
+  <p>L'utente può in ogni momento rivolgersi allo sviluppatore all'indirizzo
+  <a href="mailto:poweredbyG3r7@gmail.com">poweredbyG3r7@gmail.com</a>:</p>
+  <ul>
+    <li>disconnettere l'account dall'app (bottone "ESCI DA DRIVE"): il token viene
+    revocato e i token locali cancellati;</li>
+    <li>revocare l'accesso dell'app dal proprio
+    <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">account Google → Sicurezza → Accessi di terze parti</a>;</li>
+    <li>richiedere l'eliminazione del file remoto scrivendo a
+    <a href="mailto:poweredbyG3r7@gmail.com">poweredbyG3r7@gmail.com</a>.</li>
+  </ul>
+
+  <h2>6. Contatti</h2>
+  <p>Per qualsiasi richiesta relativa ai dati e alla privacy:
+  <a href="mailto:poweredbyG3r7@gmail.com">poweredbyG3r7@gmail.com</a> ·
+  <a href="https://github.com/GertPira" target="_blank" rel="noopener">GitHub @GertPira</a>.</p>
+
+  <p style="margin-top:30px"><a href="index.html">← Torna alla home</a></p>
+</main>
+</body>
+</html>
